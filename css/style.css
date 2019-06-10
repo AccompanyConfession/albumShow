@@ -1,0 +1,69 @@
+.headDiv{
+	width: 100%;
+	height: 220px;
+	font-size: 55px;
+	margin top:0px;
+	overflow:hidden;
+	/* Safari 5.1 - 6.0 */
+    background: -webkit-linear-gradient(left,pink,white,pink,white);
+  	/* Opera 11.1 - 12.0 */
+    background: -o-linear-gradient(left,white,pink,pink,white);
+  	/* Firefox 3.6 - 15 */
+    background: -moz-linear-gradient(left,white,pink,pink,white);
+  	/* 标准的语法 */
+    background: linear-gradient(to right, white,pink,pink,white); 
+}
+
+.headDiv p{
+	font-family:" FZYaoti";
+	font-style:oblique;
+	text-align: center;
+}
+.headDiv p:nth-child(2){
+	font-size: 25px;
+	font-family:"STXingkai";
+}
+.imgDiv{
+	float:left;
+	width: 25%;
+	height: 200px;
+	display: inline-block;
+}
+.imgDiv img{
+	margin: 1.5%;
+	width: 98%;
+	height: 98%;
+	border-radius: 10px;
+	cursor:pointer;
+	-webkit-animation-name: fadeInOut; /*动画名称*/
+	-webkit-animation-duration: 3s; /*动画持续时间*/
+	-webkit-animation-iteration-count: 1; /*动画次数*/
+	-webkit-animation-delay: 0s; /*延迟时间*/}
+}
+.imgDiv img:hover{
+	opacity: 0.7;
+}
+@-webkit-keyframes fadeInOut {
+   	0% {
+       opacity:0;
+    }
+    25% {
+       opacity: 0.25;    
+   	}
+   	50% {
+       opacity: 0.5;    
+   	}
+   	75% {
+       opacity: 0.75;    
+   	}
+   	100% {
+       opacity:1;
+   	}
+}
+@media screen and (max-width: 800px) {
+	.imgDiv{
+		width: 50%;
+	}
+	
+}
+	
