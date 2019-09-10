@@ -2,7 +2,7 @@
 album是一个简单的以HTML5为主，基于jquery得图片显示插件。
 
 
-- github： https://github.com/AccompanyConfession/albumShow.git
+- 官网： http://accompanyconfession.online（作者）
 ##
 ### 说明
 - 在html页面中引入album.min.css和album.min.js,前提是已经引入了jquery，album.min.css是点击图片，全屏显示的样式，album.min.js是核心代码，控制全屏幕显示。
@@ -19,6 +19,9 @@ album是一个简单的以HTML5为主，基于jquery得图片显示插件。
 - scrollTopTime：退出全屏后滑轮回到原始位置的时间。
 ### 方法
 - refresh（） ：通过ajax添加元素时，使用此方法，此方法会重新扫描添加的元素，为其添加点击事件。由$("#元素选择").albumPlug();得到的对象调用。
+### 版本
+- 1.0：在手机端全屏幕有概率无显示
+- 2.0：解决手机端无显示问题
 
 > 如果你有什么疑问欢迎加本人qq讨论交流前端知识与后端知识，大家一起学习，一起进步
 
